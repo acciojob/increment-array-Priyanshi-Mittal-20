@@ -4,7 +4,7 @@ function incrementArray(arr) {
 	let incArr=[]
 	for(let i of arr)
 		{
-			incArr.push(Number(i)++)
+			incArr.push(++i)
 		}
 	return incArr
 }
